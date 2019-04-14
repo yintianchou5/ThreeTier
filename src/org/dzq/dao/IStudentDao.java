@@ -8,6 +8,7 @@ import org.dzq.entity.Student;
 //第二次修改
 //第三次修改
 //第四次修改
+//第五次了
 public interface IStudentDao {
 	public boolean updateStudentBySno(int sno,Student student);
 	public boolean deleteStudentBySno(int sno);
