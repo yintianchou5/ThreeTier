@@ -3,7 +3,7 @@ package org.dzq.dao;
 import java.util.List;
 
 import org.dzq.entity.Student;
-
+//接口
 public interface IStudentDao {
 	public boolean updateStudentBySno(int sno,Student student);
 	public boolean deleteStudentBySno(int sno);
